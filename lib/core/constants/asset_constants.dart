@@ -14,4 +14,13 @@ class AssetConstants {
       "$_baseIconPath/return-pv-till-tody.png";
   static const String sunIcon = "$_baseIconPath/sun.png";
   static const String totalEnergyIcon = "$_baseIconPath/total-energy.png";
+  static const String aByCIcon = "$_baseIconPath/a-by-c.png";
+  static const String calanderIcon = "$_baseIconPath/calander.png";
+  static const String inverterIcon = "$_baseIconPath/inverter.png";
+  static const String totalAcCapacityIcon =
+      "$_baseIconPath/total-ac-capacity.png";
+  static const String totalDcCapacityIcon =
+      "$_baseIconPath/total-dc-capacity.png";
+  static const String totalNumOfPvModule =
+      "$_baseIconPath/total-num-of-pv-module.png";
 }
