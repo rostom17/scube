@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:scube/core/routes/route_names.dart';
 import 'package:scube/core/themes/app_colors.dart';
 import 'package:scube/features/common/widgets/custom_elevated_button.dart';
 
@@ -17,6 +19,10 @@ class AnimatedLoginFields extends StatelessWidget {
   final Animation<Offset> _slideAnimation;
   final TextEditingController _usernameController;
   final TextEditingController _passwordController;
+
+  void _onPressedLogin(BuildContext context) {
+    context.pushNamed(RouteNames.firstDashboardScreen);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -75,7 +81,12 @@ class AnimatedLoginFields extends StatelessWidget {
                     ),
                   ),
 
-                  CustomElevatedButton(buttonName: "Login", onPressed: () {}),
+                  CustomElevatedButton(
+                    buttonName: "Login",
+                    onPressed: () {
+                      _onPressedLogin(context);
+                    },
+                  ),
                   Row(
                     mainAxisAlignment: .center,
                     children: [
