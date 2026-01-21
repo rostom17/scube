@@ -45,10 +45,7 @@ class _WeatherGridState extends State<WeatherGrid> {
       height: double.maxFinite,
       decoration: BoxDecoration(
         color: Colors.white,
-        borderRadius: BorderRadius.only(
-          topRight: Radius.circular(12),
-          bottomRight: Radius.circular(12),
-        ),
+        borderRadius: BorderRadius.circular(12),
       ),
       child: Center(child: Text("Temperature Card")),
     );
