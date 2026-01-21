@@ -23,4 +23,11 @@ class AssetConstants {
       "$_baseIconPath/total-dc-capacity.png";
   static const String totalNumOfPvModule =
       "$_baseIconPath/total-num-of-pv-module.png";
+  static const String countdownIcon = "$_baseIconPath/countdown.png";
+  static const String electricityMeterIcon =
+      "$_baseIconPath/electricity-meter.png";
+  static const String thunderTwoIcon = "$_baseIconPath/thunder-two.png";
+  static const String thunderIcon = "$_baseIconPath/thunder.png";
+  static const String thunderInsideRingIcon =
+      "$_baseIconPath/thunder-inside-ring.png";
 }
