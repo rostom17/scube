@@ -40,7 +40,7 @@ class InformationGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 220,
+      height: 208,
       child: Column(
         children: [
           _buildInformationHeaderRow(),
