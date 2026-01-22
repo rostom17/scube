@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:scube/core/routes/route_names.dart';
 
 import 'package:scube/features/common/widgets/custom_app_bar.dart';
 import 'package:scube/features/dashboard/presentation/widgets/dashboard_navigation_button.dart';
@@ -62,7 +63,9 @@ class _FirstDashboardScreenState extends State<FirstDashboardScreen> {
             children: [
               DashboardPageNavigationButton(
                 buttonName: "2nd Page Navigate",
-                onPressed: () {},
+                onPressed: () {
+                  context.pushNamed(RouteNames.secondDashboardScreen);
+                },
               ),
               SizedBox(height: 12),
               SizedBox(height: 100, child: SummaryGrid()),

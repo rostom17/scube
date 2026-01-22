@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:scube/core/routes/route_names.dart';
 import 'package:scube/features/dashboard/presentation/screens/first_dashboard_screen.dart';
+import 'package:scube/features/dashboard/presentation/screens/second_dashboard_screen.dart';
 import 'package:scube/features/login/presentaion/screens/login_screen.dart';
 
 class AppRouter {
@@ -22,6 +23,11 @@ class AppRouter {
         path: "/first-dashboard-screen",
         name: RouteNames.firstDashboardScreen,
         builder: (context, state) => FirstDashboardScreen(),
+      ),
+      GoRoute(
+        path: "/second-dashboard-screen",
+        name: RouteNames.secondDashboardScreen,
+        builder: (context, state) => SecondDashboardScreen(),
       ),
     ],
     errorBuilder: (context, state) =>

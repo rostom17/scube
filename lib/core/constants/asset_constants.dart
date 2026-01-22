@@ -30,4 +30,12 @@ class AssetConstants {
   static const String thunderIcon = "$_baseIconPath/thunder.png";
   static const String thunderInsideRingIcon =
       "$_baseIconPath/thunder-inside-ring.png";
+  static const String batteryIcon = "$_baseIconPath/battery.png";
+  static const String chartIcon = "$_baseIconPath/chart.png";
+  static const String fireIcon = "$_baseIconPath/fire.png";
+  static const String generatorIcon = "$_baseIconPath/generator.png";
+  static const String powerLineIcon = "$_baseIconPath/power-line.png";
+  static const String solarCellIcon = "$_baseIconPath/solar-cell.png";
+  static const String thunderIcon5 = "$_baseIconPath/thuner-icon-5.png";
+  static const String waterTapeIcon = "$_baseIconPath/water-tap.png";
 }
