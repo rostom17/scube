@@ -45,15 +45,15 @@ class _ToggleButtonSourceAndLoadState extends State<ToggleButtonSourceAndLoad> {
             Row(
               children: [
                 Expanded(
-                  child: buildTab(title: "Cards", index: 0, tabIndex: tabIndex),
+                  child: buildTab(
+                    title: "Source",
+                    index: 0,
+                    tabIndex: tabIndex,
+                  ),
                 ),
                 const SizedBox(width: 12),
                 Expanded(
-                  child: buildTab(
-                    title: "Accounts",
-                    index: 1,
-                    tabIndex: tabIndex,
-                  ),
+                  child: buildTab(title: "Load", index: 1, tabIndex: tabIndex),
                 ),
               ],
             ),

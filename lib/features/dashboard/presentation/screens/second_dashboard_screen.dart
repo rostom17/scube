@@ -58,7 +58,7 @@ class SecondDashboardScreen extends StatelessWidget {
                     ),
                     itemCount: 6,
                     itemBuilder: (context, index) {
-                      return _buildInformationCard(index);
+                      return _buildBottomCards(index);
                     },
                   ),
                 ),
@@ -70,7 +70,7 @@ class SecondDashboardScreen extends StatelessWidget {
     );
   }
 
-  Container _buildInformationCard(int index) {
+  Container _buildBottomCards(int index) {
     return Container(
       padding: EdgeInsets.only(left: 6, right: 4, top: 4, bottom: 4),
       decoration: BoxDecoration(

@@ -75,6 +75,7 @@ class _FirstDashboardScreenState extends State<FirstDashboardScreen> {
               DailyComparisonSection(items: _compariosonItemList),
               const SizedBox(height: 14),
               InformationGrid(),
+              const SizedBox(height: 12),
               OverviewGrid(),
               const SizedBox(height: 12),
               OverviewGrid(),

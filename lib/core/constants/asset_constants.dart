@@ -1,6 +1,9 @@
 class AssetConstants {
   static const String _baseImagePath = "assets/images";
   static const String scubeLogoPath = "$_baseImagePath/scube-logo.png";
+  static const String blueTempLogo = "$_baseImagePath/temp-icon-blue.png";
+  static const String redTempLogo = "$_baseImagePath/temp-icon-red.png";
+  static const String greenTempLogo = "$_baseImagePath/temp-icon-green.png";
 
   static const String _baseIconPath = "assets/icons";
   static const String couldySunIcon = "$_baseIconPath/cloudy-sun.png";
